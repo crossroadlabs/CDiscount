@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CDiscount"
-  s.version      = "2.2.0"
+  s.version      = "2.2.1"
   s.summary      = "DISCOUNT is a implementation of John Gruber's Markdown markup language."
   s.license      = { :type => 'BSD', :file => 'COPYRIGHT' }
   s.description  = <<-DESC
