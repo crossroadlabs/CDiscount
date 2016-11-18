@@ -23,5 +23,9 @@ import PackageDescription
 
 let package = Package(
     name: "CDiscount",
-    pkgConfig: "libmarkdown"
+    pkgConfig: "libmarkdown",
+    providers: [
+        .Apt("libmarkdown2-dev"),
+        .Brew("discount"),
+    ]
 )
